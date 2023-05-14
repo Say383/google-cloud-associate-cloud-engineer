@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.10
 LABEL vendor="Bowtie Inc"
 RUN apt-get update && apt-get install -y apache2
 COPY index.html /var/www/html/
